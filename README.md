@@ -6,5 +6,5 @@
 Improving the legal knowledge of the population
 
 
+![drawSQL-image-export-2024-05-12 (1)](https://github.com/Kohinur0124/Legal-Knowledge/assets/118399896/4f0c8790-8200-4445-8354-af3c791fbeb1)
 
-![drawSQL-image-export-2024-05-12](https://github.com/Kohinur0124/Legal-Knowledge/assets/118399896/3ebc6209-b395-4fab-8907-cfb56beb9f75)
