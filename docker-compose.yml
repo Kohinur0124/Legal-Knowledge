@@ -1,0 +1,35 @@
+version: '3.4'
+
+networks:
+  backend:
+
+
+services:
+
+ dblegalknowledge:
+    container_name: dblegalknowledge-container
+    image:  mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Word!5434#
+    ports:
+      - 1780:1433 
+    networks:
+      - backend
+    volumes:
+      - c:\mssql:/var/opt/mssql/data  
+
+ legalknowledge.api:
+    image: ${DOCKER_REGISTRY-}legalknowledgeapi
+    build:
+      context: .
+      dockerfile: src/LegalKnowledge.API/Dockerfile
+    networks:
+      - backend
+    ports:
+      - 1456:80
+  
+    environment:
+        - DB_HOST=dblegalknowledge
+        - DB_NAME=KnowledgeLegalDB
+        - SA_PASSWORD=Word!5434#

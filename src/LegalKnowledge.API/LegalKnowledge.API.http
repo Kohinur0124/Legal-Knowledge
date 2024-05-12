@@ -1,0 +1,6 @@
+@LegalKnowledge.API_HostAddress = http://localhost:5207
+
+GET {{LegalKnowledge.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
