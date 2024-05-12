@@ -22,7 +22,7 @@ namespace LegalKnowledge.Application.UseCases.Document.Handlers
 				var res = new Documents
 				{
 					Title = request.Title,
-					YearOdPublication = request.YearOdPublication,
+					YearOfPublication = request.YearOdPublication,
 					IsActive = request.IsActive,
 
 				};

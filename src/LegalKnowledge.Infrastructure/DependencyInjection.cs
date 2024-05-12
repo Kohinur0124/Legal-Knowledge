@@ -10,10 +10,8 @@ namespace LegalKnowledge.Infrastructure
 	{
 		public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
 		{
-			var con = $"Data source={Environment.GetEnvironmentVariable("DB_HOST")};" +
-						  $"Initial Catalog={Environment.GetEnvironmentVariable("DB_NAME")};" +
-						  $"User ID=SA;Password={Environment.GetEnvironmentVariable("SA_PASSWORD")};" +
-						  $"TrustServerCertificate=True;";
+			var con = "Server=SEVINCH;Database=KnowledgeLegalDB;Trusted_Connection=True;TrustServerCertificate=True;";
+
 			services.AddDbContext<IApplicationDbContext, ApplicationDbContext>(options =>
 			options.UseSqlServer(con));
 			return services;

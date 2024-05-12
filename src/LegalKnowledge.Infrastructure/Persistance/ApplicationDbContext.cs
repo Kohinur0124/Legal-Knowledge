@@ -10,12 +10,12 @@ namespace LegalKnowledge.Infrastructure.Persistance
 	{
 		public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
 		{
-			var databaseCreator = Database.GetService<IDatabaseCreator>() as RelationalDatabaseCreator;
+			/*var databaseCreator = Database.GetService<IDatabaseCreator>() as RelationalDatabaseCreator;
 			if (databaseCreator != null)
 			{
 				if (!databaseCreator.CanConnect()) databaseCreator.Create();
 				if (!databaseCreator.HasTables()) databaseCreator.CreateTables();
-			}
+			}*/
 		}
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{

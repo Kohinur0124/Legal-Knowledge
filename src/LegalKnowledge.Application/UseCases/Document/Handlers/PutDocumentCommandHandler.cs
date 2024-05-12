@@ -25,7 +25,7 @@ namespace LegalKnowledge.Application.UseCases.Document.Handlers
 					FirstOrDefaultAsync(x => x.Id == request.Id);
 
 				res.Title = request.Title;
-				res.YearOdPublication = request.YearOdPublication;
+				res.YearOfPublication = request.YearOdPublication;
 				res.IsActive = res.IsActive;
 
 

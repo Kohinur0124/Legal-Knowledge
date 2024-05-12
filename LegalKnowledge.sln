@@ -13,8 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LegalKnowledge.Infrastructu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LegalKnowledge.API", "src\LegalKnowledge.API\LegalKnowledge.API.csproj", "{273306AA-7944-4CDA-B9E9-2543387AC065}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2E40F656-CB4E-4C72-BD33-BF9C117A1385}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,10 +35,6 @@ Global
 		{273306AA-7944-4CDA-B9E9-2543387AC065}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{273306AA-7944-4CDA-B9E9-2543387AC065}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{273306AA-7944-4CDA-B9E9-2543387AC065}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E40F656-CB4E-4C72-BD33-BF9C117A1385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E40F656-CB4E-4C72-BD33-BF9C117A1385}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E40F656-CB4E-4C72-BD33-BF9C117A1385}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E40F656-CB4E-4C72-BD33-BF9C117A1385}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
