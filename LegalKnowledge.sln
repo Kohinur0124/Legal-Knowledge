@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegalKnowledge.Presentation", "src\LegalKnowledge.Presentation\LegalKnowledge.Presentation.csproj", "{7333DAAF-99D1-4CE4-B2CF-CC6003CD662B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BF15DE06-F470-437C-98CD-F4266A635F5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegalKnowledge.Domain", "src\LegalKnowledge.Domain\LegalKnowledge.Domain.csproj", "{EAFE70A9-8968-40EA-8A41-E39D762B49AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegalKnowledge.Application", "src\LegalKnowledge.Application\LegalKnowledge.Application.csproj", "{1B385DB7-521D-426E-B9DE-54D961AD0780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegalKnowledge.Infrastructure", "src\LegalKnowledge.Infrastructure\LegalKnowledge.Infrastructure.csproj", "{7C7B9388-7113-4A46-845E-583A3759EA24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7333DAAF-99D1-4CE4-B2CF-CC6003CD662B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7333DAAF-99D1-4CE4-B2CF-CC6003CD662B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7333DAAF-99D1-4CE4-B2CF-CC6003CD662B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7333DAAF-99D1-4CE4-B2CF-CC6003CD662B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7333DAAF-99D1-4CE4-B2CF-CC6003CD662B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7333DAAF-99D1-4CE4-B2CF-CC6003CD662B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EAFE70A9-8968-40EA-8A41-E39D762B49AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFE70A9-8968-40EA-8A41-E39D762B49AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFE70A9-8968-40EA-8A41-E39D762B49AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFE70A9-8968-40EA-8A41-E39D762B49AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B385DB7-521D-426E-B9DE-54D961AD0780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B385DB7-521D-426E-B9DE-54D961AD0780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B385DB7-521D-426E-B9DE-54D961AD0780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B385DB7-521D-426E-B9DE-54D961AD0780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C7B9388-7113-4A46-845E-583A3759EA24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7B9388-7113-4A46-845E-583A3759EA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7B9388-7113-4A46-845E-583A3759EA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7B9388-7113-4A46-845E-583A3759EA24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7333DAAF-99D1-4CE4-B2CF-CC6003CD662B} = {BF15DE06-F470-437C-98CD-F4266A635F5F}
+		{EAFE70A9-8968-40EA-8A41-E39D762B49AE} = {BF15DE06-F470-437C-98CD-F4266A635F5F}
+		{1B385DB7-521D-426E-B9DE-54D961AD0780} = {BF15DE06-F470-437C-98CD-F4266A635F5F}
+		{7C7B9388-7113-4A46-845E-583A3759EA24} = {BF15DE06-F470-437C-98CD-F4266A635F5F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FA808C5-A637-477D-B1A1-B3E09F320CDD}
+	EndGlobalSection
+EndGlobal
